@@ -1,0 +1,8 @@
+<ol class="list-group">
+    <app-task-item class=" list-group-item d-flex align-items-center" *ngFor="let item of tasks; let i = index" [index]="i" [currentTask]="item">
+    </app-task-item>
+</ol>
+<form class="d-flex p-3">
+    <input class="form-control mr-2" placeholder="Enter task for this event"/>
+    <button class="btn btn-info"><i class="fas fa-plus"></i></button>
+</form>
