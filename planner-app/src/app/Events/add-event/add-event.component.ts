@@ -15,9 +15,10 @@ export class AddEventComponent implements OnInit {
   newDescription: string;
   newImage: string;
   newDate: string;
-
+id: number = 10;
   sendNewEvent() {
     const event = new Event(
+      this.id,
       this.newTitle,
       this.newDescription,
       this.newDate,

@@ -1,15 +1,15 @@
-<div class="card p-3" title={{currentEvent.title}} >
+<div class="card p-3" id={{currentEvent.title}}>
 
   <div class="d-flex mr-5">
     <img class="card-img-top" [src]="currentEvent.image_url" alt="Card image cap">
     <!-- <i class="far fa-hand-point-up current fa-2x"></i> -->
-    <i *ngIf="isVisible == true" (click)="setVisible()" class="far m-2 fa-eye fa-2x icon-red current"></i>
-    <i *ngIf="isVisible == false" (click)="setVisible()" class="fas m-2 fa-eye fa-2x icon-green current"></i>
+    <i *ngIf="isVisible == true" (click)="setVisible()" class="far m-2 fa-eye fa-2x icon-red current" id={{currentEvent.title}}></i>
+    <i *ngIf="isVisible == false" (click)="setVisible()" class="fas m-2 fa-eye fa-2x icon-green current" id={{currentEvent.title}}></i>
   </div>
   <div class="card-body">
     <h5 class="card-title">{{currentEvent.title}}</h5>
-    <i *ngIf="isPriority == false" (click)="setPriority()" class="far m-2 fa-check-square fa-2x icon-red current"></i>
-    <i *ngIf="isPriority == true" (click)="setPriority()" class="fas m-2 fa-check-square fa-2x icon-green current"></i>
+    <i *ngIf="isPriority == false" (click)="setPriority()" class="far m-2 fa-check-square fa-2x icon-red current" ></i>
+    <i *ngIf="isPriority == true" (click)="setPriority()" class="fas m-2 fa-check-square fa-2x icon-green current" ></i>
     <i class="ml-3 fas fa-pencil-alt fa-2x current" (click)="selectEdit()" style="color: rgb(0, 183, 255)"></i>
     <p class="card-text"><small class="text-muted">{{currentEvent.desription}}</small></p>
     <p class="card-text"><small class="text-muted">{{currentEvent.dateStart}}</small></p>

@@ -21,6 +21,8 @@ import { TestComponent } from './test/test.component';
 import { ShowMyEventsComponent } from './Events/show-my-events/show-my-events.component';
 import { ShowMyItemComponent } from './Events/show-my-events/show-my-item/show-my-item.component';
 import { DetailsEventComponent } from './Events/details-event/details-event.component';
+import { DeletedEventListComponent } from './Events/deleted-event-list/deleted-event-list.component';
+import { DeletedEventItemComponent } from './Events/deleted-event-list/deleted-event-item/deleted-event-item.component';
 
 
 @NgModule({
@@ -42,7 +44,9 @@ import { DetailsEventComponent } from './Events/details-event/details-event.comp
     TestComponent,
     ShowMyEventsComponent,
     ShowMyItemComponent,
-    DetailsEventComponent
+    DetailsEventComponent,
+    DeletedEventListComponent,
+    DeletedEventItemComponent
   ],
   imports: [
     BrowserModule,

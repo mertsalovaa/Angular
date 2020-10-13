@@ -1,0 +1,5 @@
+.foggy {
+    opacity: 0.33;
+    box-shadow: 0 0 5px 0px #636363;
+    border-radius: 2%;
+}
