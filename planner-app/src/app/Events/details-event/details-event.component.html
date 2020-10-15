@@ -1,4 +1,12 @@
-<div class="container">
-  <h2>{{currentEvent.title}}</h2>
-  <h4>{{currentEvent.desription}}</h4>
+<div class="container custom-styles p-3">
+  <div class="row m-5 d-flex justify-content-center">
+    <img src={{currentEvent.image_url}} alt={{currentEvent.title}} />
+    <div class="ml-4">
+      <h2 class="card-title m-2">{{currentEvent.title}}</h2>
+      <h4 class="m-2">{{currentEvent.desription}}</h4>
+      <h5 class="text-center m-3">{{currentEvent.dateStart}}</h5>
+    </div>    
+  </div>
+
+  <a class="nav-link" [routerLink]="['/home']">Home <span class="sr-only">(current)</span></a>
 </div>
