@@ -1,3 +1,5 @@
-<p>
-  work_list_st works!
-</p>
+<div class="container p-4">
+  <div class="d-flex flex-wrap justify-content-center">
+    <work-item-st *ngFor="let item of works; let i = index" [index]="i" [currentWork]="item" class="col-5 p-2"></work-item-st>
+  </div>
+</div>

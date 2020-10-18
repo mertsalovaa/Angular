@@ -28,13 +28,10 @@ export class EventItemComponent implements OnInit {
     this.event = this.eventService.getSearchEvent(this.currentEvent.title);
     var card = document.querySelectorAll(".card").forEach(item => {
       if (item.getAttribute("id") == this.currentEvent.title) {
-        console.log(item);
         item.classList.toggle("foggy");
-        console.log(`card ${item.getAttribute("id")} is foggy`);
         return item;
       }
     });
-    console.log(card + " =< now");   // srcElement.attributes.id.nodeValue
   }
   setPriority() {
     this.isPriority = !this.isPriority;

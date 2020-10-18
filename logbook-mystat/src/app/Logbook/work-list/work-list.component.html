@@ -1,5 +1,6 @@
-<div class="container">
-  <div class="d-flex justify-content-center m-3">
+<div class="container p-4">
+  <a class="nav-link btn btn-success col-3" [routerLink]="['/logbook/add']">Add homework</a>
+  <div class="d-flex flex-wrap justify-content-center">
     <work-item *ngFor="let item of works; let i = index" [index]="i" [currentWork]="item" class="col-5 p-2"></work-item>
   </div>
 </div>

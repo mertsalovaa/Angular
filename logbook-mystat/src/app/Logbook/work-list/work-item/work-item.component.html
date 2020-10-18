@@ -1,5 +1,9 @@
-<div class="card text-white bg-info m-3 p-3">
-  <div class="card-header"><b>{{currentWork.title}}</b></div>
+<div class="card text-white bg-info m-3 p-3" id="{{currentWork.title}}">
+  <div class="card-header d-flex justify-content-between align-items-center" >
+    <b>{{currentWork.title}}</b>
+    <button class="btn btn-dark" *ngIf="currentWork.isDone == true" (click)="setMark()">Grade <i class="fas fa-star"></i></button>
+    <button class="btn btn-dark" disabled *ngIf="currentWork.isChecked == true" (click)="setMark()">Verify</button>
+  </div>
   <div class="card-body">{{currentWork.text_work}}</div>
   <div class="card-footer">date finish: {{currentWork.dateFinish}}</div>
 </div>

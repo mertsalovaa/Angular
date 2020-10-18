@@ -1,0 +1,16 @@
+.icon-red {
+    color: red;
+}
+
+.icon-green {
+    color: green;
+}
+
+.current {
+    cursor: pointer;
+}
+
+.bg-orange {
+    background-color: orange;
+    border: 5px dotted darkorange;
+}

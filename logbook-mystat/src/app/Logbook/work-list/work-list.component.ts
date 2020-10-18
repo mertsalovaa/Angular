@@ -16,8 +16,9 @@ export class WorkListComponent implements OnInit {
   ngOnInit() {
     this.works = this.service.getAllWorks();
     this.service.refreshList.subscribe((newWorks: Work[]) => {
-      this.works = newWorks;
+      this. works = newWorks;
     });
+    console.log(this.works);
   }
 
 }

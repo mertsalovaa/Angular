@@ -3,6 +3,8 @@ export class Work {
     title: string;
     dateFinish: string;
     text_work: string;
+    isChecked: boolean = false;
+    isDone: boolean = false;
 
     constructor(id: number, title: string, dateFinish: string, text_work: string) {
         this.id = id;

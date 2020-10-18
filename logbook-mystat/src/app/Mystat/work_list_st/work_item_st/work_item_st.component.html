@@ -1,3 +1,11 @@
-<p>
-  work_item_st works!
-</p>
+<div class="card text-white bg-info m-3 p-3" id="{{currentWork.title}}">
+  <div class="card-header d-flex justify-content-between align-items-center">
+    <b>{{currentWork.title}}</b>
+    <i *ngIf="isDone == false" (click)="setDoneWork()" class="far m-2 fa-check-circle fa-2x icon-red current"></i>
+    <i *ngIf="isDone == true" (click)="setDoneWork()" class="fas m-2 fa-check-circle fa-2x icon-green current"></i>
+  </div>
+  <div class="card-body">
+    <p>{{currentWork.text_work}}</p>
+  </div>
+  <div class="card-footer">date finish: {{currentWork.dateFinish}}</div>
+</div>

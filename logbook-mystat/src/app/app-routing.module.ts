@@ -5,6 +5,7 @@ import { AddWorkComponent } from './Logbook/add-work/add-work.component';
 import { LogbookComponent } from './Logbook/Logbook.component';
 import { WorkListComponent } from './Logbook/work-list/work-list.component';
 import { MystatComponent } from './Mystat/Mystat.component';
+import { WorkListStComponent } from './Mystat/work_list_st/work_list_st.component';
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: '/home' },
@@ -20,7 +21,13 @@ const routes: Routes = [
     ]
   },
 
-  { path: 'mystat', pathMatch: 'full', component: MystatComponent },
+  {
+    path: 'mystat', component: MystatComponent,
+    children: [
+      { path: '', pathMatch: 'full', redirectTo: '/mystat/homeworks' },
+      { path: 'homeworks', pathMatch: 'full', component: WorkListStComponent }
+    ]
+  }
 
 ];
 

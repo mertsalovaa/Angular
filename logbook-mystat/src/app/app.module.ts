@@ -12,6 +12,7 @@ import { HomeComponent } from './Home/Home.component';
 import { HeaderComponent } from './Header/Header.component';
 import { WorkListStComponent } from './Mystat/work_list_st/work_list_st.component';
 import { WorkItemStComponent } from './Mystat/work_list_st/work_item_st/work_item_st.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { WorkItemStComponent } from './Mystat/work_list_st/work_item_st/work_ite
    ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule, 
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

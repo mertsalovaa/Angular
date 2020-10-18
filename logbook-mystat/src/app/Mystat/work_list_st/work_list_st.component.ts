@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { LogbookService } from 'src/app/Logbook.service';
+import { Work } from 'src/app/Logbook/work-list/work.model';
 
 @Component({
   selector: 'work-list-st',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WorkListStComponent implements OnInit {
 
-  constructor() { }
+  constructor(private service: LogbookService) { }
+
+  works: Work[];
 
   ngOnInit() {
+    this.works = this.service.getAllWorks();
+    this.service.refreshList.subscribe((newWorks: Work[]) => {
+      this.works = newWorks;
+    });
   }
-
 }
