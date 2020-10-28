@@ -1,0 +1,143 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Завантаження\\Angular_BaseAuth817-master\\Angular_BaseAuth817-master\\Base_Project817.Domain\\Base_Project817.Domain.csproj": {}
+  },
+  "projects": {
+    "D:\\Завантаження\\Angular_BaseAuth817-master\\Angular_BaseAuth817-master\\Base_Project817.DataAccess\\Base_Project817.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Завантаження\\Angular_BaseAuth817-master\\Angular_BaseAuth817-master\\Base_Project817.DataAccess\\Base_Project817.DataAccess.csproj",
+        "projectName": "Base_Project817.DataAccess",
+        "projectPath": "D:\\Завантаження\\Angular_BaseAuth817-master\\Angular_BaseAuth817-master\\Base_Project817.DataAccess\\Base_Project817.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Iryna Mertsalova\\.nuget\\packages\\",
+        "outputPath": "D:\\Завантаження\\Angular_BaseAuth817-master\\Angular_BaseAuth817-master\\Base_Project817.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Iryna Mertsalova\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Завантаження\\Angular_BaseAuth817-master\\Angular_BaseAuth817-master\\Base_Project817.Domain\\Base_Project817.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Завантаження\\Angular_BaseAuth817-master\\Angular_BaseAuth817-master\\Base_Project817.Domain\\Base_Project817.Domain.csproj",
+        "projectName": "Base_Project817.Domain",
+        "projectPath": "D:\\Завантаження\\Angular_BaseAuth817-master\\Angular_BaseAuth817-master\\Base_Project817.Domain\\Base_Project817.Domain.csproj",
+        "packagesPath": "C:\\Users\\Iryna Mertsalova\\.nuget\\packages\\",
+        "outputPath": "D:\\Завантаження\\Angular_BaseAuth817-master\\Angular_BaseAuth817-master\\Base_Project817.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Iryna Mertsalova\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Завантаження\\Angular_BaseAuth817-master\\Angular_BaseAuth817-master\\Base_Project817.DataAccess\\Base_Project817.DataAccess.csproj": {
+                "projectPath": "D:\\Завантаження\\Angular_BaseAuth817-master\\Angular_BaseAuth817-master\\Base_Project817.DataAccess\\Base_Project817.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

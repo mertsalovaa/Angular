@@ -1,0 +1,17 @@
+C:\Users\HP\Desktop\Base_Project817\Base_Project817.DTO\bin\Debug\netcoreapp3.1\Base_Project817.DTO.deps.json
+C:\Users\HP\Desktop\Base_Project817\Base_Project817.DTO\bin\Debug\netcoreapp3.1\Base_Project817.DTO.dll
+C:\Users\HP\Desktop\Base_Project817\Base_Project817.DTO\bin\Debug\netcoreapp3.1\Base_Project817.DTO.pdb
+C:\Users\HP\Desktop\Base_Project817\Base_Project817.DTO\obj\Debug\netcoreapp3.1\Base_Project817.DTO.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Base_Project817\Base_Project817.DTO\obj\Debug\netcoreapp3.1\Base_Project817.DTO.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Base_Project817\Base_Project817.DTO\obj\Debug\netcoreapp3.1\Base_Project817.DTO.AssemblyInfo.cs
+C:\Users\HP\Desktop\Base_Project817\Base_Project817.DTO\obj\Debug\netcoreapp3.1\Base_Project817.DTO.dll
+C:\Users\HP\Desktop\Base_Project817\Base_Project817.DTO\obj\Debug\netcoreapp3.1\Base_Project817.DTO.pdb
+C:\Users\HP\Desktop\Base_Project817\Base_Project817.DTO\obj\Debug\netcoreapp3.1\Base_Project817.DTO.csprojAssemblyReference.cache
+D:\Завантаження\Angular_BaseAuth817-master\Angular_BaseAuth817-master\Base_Project817.DTO\bin\Debug\netcoreapp3.1\Base_Project817.DTO.deps.json
+D:\Завантаження\Angular_BaseAuth817-master\Angular_BaseAuth817-master\Base_Project817.DTO\bin\Debug\netcoreapp3.1\Base_Project817.DTO.dll
+D:\Завантаження\Angular_BaseAuth817-master\Angular_BaseAuth817-master\Base_Project817.DTO\bin\Debug\netcoreapp3.1\Base_Project817.DTO.pdb
+D:\Завантаження\Angular_BaseAuth817-master\Angular_BaseAuth817-master\Base_Project817.DTO\obj\Debug\netcoreapp3.1\Base_Project817.DTO.AssemblyInfoInputs.cache
+D:\Завантаження\Angular_BaseAuth817-master\Angular_BaseAuth817-master\Base_Project817.DTO\obj\Debug\netcoreapp3.1\Base_Project817.DTO.AssemblyInfo.cs
+D:\Завантаження\Angular_BaseAuth817-master\Angular_BaseAuth817-master\Base_Project817.DTO\obj\Debug\netcoreapp3.1\Base_Project817.DTO.csproj.CoreCompileInputs.cache
+D:\Завантаження\Angular_BaseAuth817-master\Angular_BaseAuth817-master\Base_Project817.DTO\obj\Debug\netcoreapp3.1\Base_Project817.DTO.dll
+D:\Завантаження\Angular_BaseAuth817-master\Angular_BaseAuth817-master\Base_Project817.DTO\obj\Debug\netcoreapp3.1\Base_Project817.DTO.pdb

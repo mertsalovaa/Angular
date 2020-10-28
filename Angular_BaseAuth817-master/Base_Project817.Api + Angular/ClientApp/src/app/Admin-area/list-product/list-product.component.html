@@ -1,0 +1,24 @@
+<nz-table #rowSelectionTable nzShowSizeChanger [nzData]="listOfData">
+  <thead>
+    <tr>
+      <th>Image</th>
+      <th>Title</th>
+      <th>Price</th>
+      <th>Description</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let product of rowSelectionTable.data">
+    <td>
+      <img width="60" [src]="product.image" alt=""/>
+    </td>
+    <td>{{product.title}}</td>
+    <td>{{product.price}}</td>
+    <td>{{product.description}}</td>
+    <td>
+      <button class="btn btn-info" (click)="delete(product.id)">Delete</button>
+    </td>
+    </tr>
+  </tbody>
+</nz-table>

@@ -1,0 +1,93 @@
+<!-- <div class="login-page">
+  <div class="form">
+    <h3>Add new product</h3>
+    <form class="login-form" #myForm="ngForm" (ngSubmit)="addProduct()">
+      <input [(ngModel)]="model.title" type="text" placeholder="Title" name="Title" />
+      <input [(ngModel)]="model.description" type="text" placeholder="Description" name="Description" />
+      <input [(ngModel)]="model.price" type="text" placeholder="Price" name="Price" />
+      <input [(ngModel)]="model.image" type="text" placeholder="Image" name="Image" />
+      
+      <button type="submit" class="btn btn-primary my-btn">ADD</button>
+    </form>
+  </div>
+</div>
+
+<form nz-form (ngSubmit)="addProduct()"> 
+  <nz-form-item>
+    <nz-form-label [nzSpan]="7" nzRequired>Title</nz-form-label>
+    <nz-form-control [nzSpan]="12" nzHasFeedback nzValidatingTip="Validating..." [nzErrorTip]="userErrorTpl">
+      <input nz-input placeholder="Title" />
+      <ng-template #userErrorTpl let-control>
+        <ng-container *ngIf="control.hasError('required')">
+          Please input your username!
+        </ng-container>
+        <ng-container *ngIf="control.hasError('duplicated')">
+          The username is redundant!
+        </ng-container>
+      </ng-template>
+    </nz-form-control>
+  </nz-form-item>
+  <nz-form-item>
+    <nz-form-label [nzSpan]="7" nzRequired>E-mail</nz-form-label>
+    <nz-form-control [nzSpan]="12" nzHasFeedback [nzErrorTip]="emailErrorTpl">
+      <input nz-input placeholder="email" type="email" />
+      <ng-template #emailErrorTpl let-control>
+        <ng-container *ngIf="control.hasError('email')">
+          The input is not valid E-mail!
+        </ng-container>
+        <ng-container *ngIf="control.hasError('required')">
+          Please input your E-mail!
+        </ng-container>
+      </ng-template>
+    </nz-form-control>
+  </nz-form-item>
+  <nz-form-item>
+    <nz-form-label [nzSpan]="7" nzRequired>Password</nz-form-label>
+    <nz-form-control [nzSpan]="12" nzHasFeedback nzErrorTip="Please input your password!">
+      <input nz-input type="password" />
+    </nz-form-control>
+  </nz-form-item>
+  <nz-form-item>
+    <nz-form-label [nzSpan]="7" nzRequired>Confirm Password</nz-form-label>
+    <nz-form-control [nzSpan]="12" nzHasFeedback [nzErrorTip]="passwordErrorTpl">
+      <input nz-input type="password" placeholder="confirm your password" />
+      <ng-template #passwordErrorTpl let-control>
+        <ng-container *ngIf="control.hasError('required')">
+          Please confirm your password!
+        </ng-container>
+        <ng-container *ngIf="control.hasError('confirm')">
+          Password is inconsistent!
+        </ng-container>
+      </ng-template>
+    </nz-form-control>
+  </nz-form-item>
+  <nz-form-item>
+    <nz-form-label [nzSpan]="7" nzRequired>Comment</nz-form-label>
+    <nz-form-control [nzSpan]="12" nzErrorTip="Please write something here!">
+      <textarea nz-input rows="2" placeholder="write any thing"></textarea>
+    </nz-form-control>
+  </nz-form-item>
+  <nz-form-item>
+    <nz-form-control [nzOffset]="7" [nzSpan]="12">
+      <button nz-button nzType="primary" [disabled]="!validateForm.valid">Submit</button>
+      <button nz-button (click)="resetForm($event)">Reset</button>
+    </nz-form-control>
+  </nz-form-item>
+</form> -->
+<form nz-form>
+  <nz-form-item>
+    <nz-form-control>
+      <input nz-input placeholder="Title" [(ngModel)]="newTitle" />
+    </nz-form-control>
+    <nz-form-control>
+      <input nz-input placeholder="Price" [(ngModel)]="newPrice" />
+    </nz-form-control>
+    <nz-form-control>
+      <input nz-input placeholder="Description" [(ngModel)]="newDescription" />
+    </nz-form-control>
+    <nz-form-control>
+      <input nz-input placeholder="Image URL" [(ngModel)]="newImage" />
+    </nz-form-control>
+  </nz-form-item>
+  <button class="btn btn-secondary" (click)="addProduct()">Tap here</button>
+</form>
