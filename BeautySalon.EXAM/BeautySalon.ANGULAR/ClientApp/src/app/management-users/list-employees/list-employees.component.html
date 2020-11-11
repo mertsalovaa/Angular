@@ -1,0 +1,29 @@
+<button *ngIf="role==='Main manager'" [routerLink]="['/manager-panel/management-users/add']" class="btn btn-danger m-1">Add new employee</button>
+  <div class="box row flex-wrap">
+    <div class="card">
+      <div class="imgBx">
+        <img [src]="owner.image" [alt]="owner.fullName">
+      </div>
+      <div class="details mb-3">
+        <h2 class="mt-2">{{owner.fullName}}<br>
+          <span>{{owner.email}}</span>
+          <span>{{owner.phone}}</span>
+          <!-- <span>Owner</span> -->
+        </h2>
+
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgBx">
+        <img [src]="mainManager.image" [alt]="mainManager.fullName">
+      </div>
+      <div class="details mb-3">
+        <h2 class="mt-2">{{mainManager.fullName}}<br>
+          <span>{{mainManager.email}}</span>
+          <span>{{mainManager.phone}}</span>
+          <!-- <span>Main manager</span> -->
+        </h2>
+      </div>
+    </div>
+    <item-employee *ngFor="let item of employees;" [currentEmployee]="item"></item-employee>
+  </div>

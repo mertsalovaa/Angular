@@ -1,0 +1,49 @@
+.header {
+  background-color: black;
+}
+
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+}
+
+.navbar-brand:hover {
+  color: rgb(126, 126, 126);
+}
+
+.navbar-nav {
+  font-family: "Work Sans", Arial, sans-serif;
+}
+
+.bars {
+  outline: none;
+}
+
+.navbar-collapse {
+  font-size: 13px;
+}
+
+.nav-item {
+  cursor: pointer;
+}
+
+.white-color {
+  color: white;
+}
+
+.dropdown-menu {
+  background-color: black;
+  font-size: 13px;
+}
+
+.dropdown-item:hover {
+  background-color: rgb(29, 29, 29);
+  color: whitesmoke;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 45px;
+  border-radius: 50%;
+}

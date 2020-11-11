@@ -1,0 +1,16 @@
+<div class="container">
+  <button *ngIf="role==='Main manager'" class="btn btn-danger m-2"
+    [routerLink]="['/manager-panel/beauty-products/add']">Add new beauty
+    product</button>
+    <button *ngIf="role==='Main manager'" class="btn btn-danger m-2"
+    [routerLink]="['/manager-panel/beauty-products/ordered']">Ordered products</button>
+  <button *ngIf="role!='Main manager'" [routerLink]="['customer-panel']" class="btn btn-warning">Go back ..</button>
+
+
+  <!-- <div class="container p-3"> -->
+  <div class="row justify-content-center">
+    <item-products *ngFor="let item of beautyProducts; let i = index" [currentBeautyProduct]="item">
+    </item-products>
+  </div>
+  <!-- </div> -->
+</div>

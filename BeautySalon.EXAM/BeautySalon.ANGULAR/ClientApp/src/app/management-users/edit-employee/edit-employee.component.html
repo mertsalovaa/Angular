@@ -1,0 +1,17 @@
+<form class="col-lg-5 text-center" style="margin: 0 auto;" #myForm="ngForm" (ngSubmit)="edit()">
+
+  <input class="my-margin form-control" [(ngModel)]="currentEmployee.email" type="text" name="email" placeholder="Email">
+  <input class="my-margin form-control" [(ngModel)]="currentEmployee.fullName" type="text" name="fullName" placeholder="FullName">
+  <input class="my-margin form-control" [(ngModel)]="currentEmployee.phone" type="tel" name="phone" placeholder="Phone">
+  <input class="my-margin form-control" [(ngModel)]="currentEmployee.image" type="text" name="image" placeholder="Image URL">
+  <input class="my-margin form-control" [(ngModel)]="currentEmployee.birthDate" type="date" name="date" placeholder="BirthDay">
+  <input class="my-margin form-control" [(ngModel)]="currentEmployee.address" type="address" name="address" placeholder="Address">
+
+  <select name="specialities" class="form-control my-margin" [(ngModel)]="currentEmployee.specialities">
+    <option selected disabled>Speciality type</option>
+    <option class="input100 label-input100 specialityType"
+      *ngFor="let item of specialityType;" [ngValue]="item">{{item}}</option>
+  </select>
+
+  <button type="submit" class="btn btn-dark my-margin">Save</button>
+</form>

@@ -1,0 +1,19 @@
+<div class="card">
+  <div class="imgBx">
+    <img [src]="currentEmployee.image" [alt]="currentEmployee.fullName">
+  </div>
+  <div class="details mb-3">
+    <h2 class="mt-2">
+      <div class="d-flex justify-content-around">
+        <span *ngIf="role==='Main manager'" (click)="delete(currentEmployee.id)"><i
+            class="far fa-trash-alt my-style-i"></i></span>
+        <p>{{currentEmployee.fullName}}</p>
+        <!-- <span (click)="delete(currentEmployee.id)"><i class="far fa-question-circle my-style-i"></i></span> -->
+        <span *ngIf="role==='Main manager'" (click)="edit(currentEmployee.id)"><i
+            class="fas fa-user-edit my-style-i"></i></span>
+      </div>
+      <span style="margin-top: -10px;">{{currentEmployee.email}}</span>
+      <span>{{currentEmployee.phone}}</span>
+    </h2>
+  </div>
+</div>

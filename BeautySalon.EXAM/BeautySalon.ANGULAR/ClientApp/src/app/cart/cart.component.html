@@ -1,0 +1,21 @@
+<a class="nav-link" data-toggle="modal" data-target="#exampleModal">
+  <p><i class="fas fa-shopping-basket"></i> Cart</p>
+</a>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <p class="font-weight-bold m-3">Services : </p>
+        <app-cart-itemS *ngFor="let item of ordersService; let i = index" [currentOrder]="item"></app-cart-itemS>
+        <hr />
+        <p class="font-weight-bold m-3">Products : </p>
+        <app-cart-itemP *ngFor="let item of ordersProduct; let i = index" [currentOrder]="item"></app-cart-itemP>
+      </div>
+      <div class="modal-footer justify-content-around">
+        <p>{{allPrice}}</p>
+        <button type="button" data-dismiss="modal" class="btn btn-secondary" (click)="submit()"><i class="fas fa-shopping-cart"></i> Buy</button>
+      </div>
+    </div>
+  </div>
+</div>

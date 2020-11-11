@@ -1,0 +1,18 @@
+C:\Users\Iryna Mertsalova\Desktop\EXAM\BeautySalon.EXAM\BeautySalon.DTO\bin\Debug\netcoreapp3.1\BeautySalon.DTO.deps.json
+C:\Users\Iryna Mertsalova\Desktop\EXAM\BeautySalon.EXAM\BeautySalon.DTO\bin\Debug\netcoreapp3.1\BeautySalon.DTO.dll
+C:\Users\Iryna Mertsalova\Desktop\EXAM\BeautySalon.EXAM\BeautySalon.DTO\bin\Debug\netcoreapp3.1\BeautySalon.DTO.pdb
+C:\Users\Iryna Mertsalova\Desktop\EXAM\BeautySalon.EXAM\BeautySalon.DTO\obj\Debug\netcoreapp3.1\BeautySalon.DTO.csprojAssemblyReference.cache
+C:\Users\Iryna Mertsalova\Desktop\EXAM\BeautySalon.EXAM\BeautySalon.DTO\obj\Debug\netcoreapp3.1\BeautySalon.DTO.AssemblyInfoInputs.cache
+C:\Users\Iryna Mertsalova\Desktop\EXAM\BeautySalon.EXAM\BeautySalon.DTO\obj\Debug\netcoreapp3.1\BeautySalon.DTO.AssemblyInfo.cs
+C:\Users\Iryna Mertsalova\Desktop\EXAM\BeautySalon.EXAM\BeautySalon.DTO\obj\Debug\netcoreapp3.1\BeautySalon.DTO.csproj.CoreCompileInputs.cache
+C:\Users\Iryna Mertsalova\Desktop\EXAM\BeautySalon.EXAM\BeautySalon.DTO\obj\Debug\netcoreapp3.1\BeautySalon.DTO.dll
+C:\Users\Iryna Mertsalova\Desktop\EXAM\BeautySalon.EXAM\BeautySalon.DTO\obj\Debug\netcoreapp3.1\BeautySalon.DTO.pdb
+C:\Users\Mertsalova.Iryna\Downloads\Angular-BeautySalon.exam\Angular-BeautySalon.exam\BeautySalon.EXAM\BeautySalon.DTO\bin\Debug\netcoreapp3.1\BeautySalon.DTO.deps.json
+C:\Users\Mertsalova.Iryna\Downloads\Angular-BeautySalon.exam\Angular-BeautySalon.exam\BeautySalon.EXAM\BeautySalon.DTO\bin\Debug\netcoreapp3.1\BeautySalon.DTO.dll
+C:\Users\Mertsalova.Iryna\Downloads\Angular-BeautySalon.exam\Angular-BeautySalon.exam\BeautySalon.EXAM\BeautySalon.DTO\bin\Debug\netcoreapp3.1\BeautySalon.DTO.pdb
+C:\Users\Mertsalova.Iryna\Downloads\Angular-BeautySalon.exam\Angular-BeautySalon.exam\BeautySalon.EXAM\BeautySalon.DTO\obj\Debug\netcoreapp3.1\BeautySalon.DTO.csprojAssemblyReference.cache
+C:\Users\Mertsalova.Iryna\Downloads\Angular-BeautySalon.exam\Angular-BeautySalon.exam\BeautySalon.EXAM\BeautySalon.DTO\obj\Debug\netcoreapp3.1\BeautySalon.DTO.AssemblyInfoInputs.cache
+C:\Users\Mertsalova.Iryna\Downloads\Angular-BeautySalon.exam\Angular-BeautySalon.exam\BeautySalon.EXAM\BeautySalon.DTO\obj\Debug\netcoreapp3.1\BeautySalon.DTO.AssemblyInfo.cs
+C:\Users\Mertsalova.Iryna\Downloads\Angular-BeautySalon.exam\Angular-BeautySalon.exam\BeautySalon.EXAM\BeautySalon.DTO\obj\Debug\netcoreapp3.1\BeautySalon.DTO.csproj.CoreCompileInputs.cache
+C:\Users\Mertsalova.Iryna\Downloads\Angular-BeautySalon.exam\Angular-BeautySalon.exam\BeautySalon.EXAM\BeautySalon.DTO\obj\Debug\netcoreapp3.1\BeautySalon.DTO.dll
+C:\Users\Mertsalova.Iryna\Downloads\Angular-BeautySalon.exam\Angular-BeautySalon.exam\BeautySalon.EXAM\BeautySalon.DTO\obj\Debug\netcoreapp3.1\BeautySalon.DTO.pdb

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border: none;
+    &:hover {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+    }
+    a {
+      color: initial;
+      &:hover {
+        text-decoration: initial;
+      }
+    }
+    .text-muted i {
+      margin: 0 10px;
+    }
+  }
+  .my-style-i:hover {
+  color: gray;
+  text-shadow: 0 0 13px #353535b3;
+  }
+
+  .card-text {
+    font-size: 19px;
+  }
+
+  .card {
+    border: 4px solid #eaeaea61;
+    font-family: 'Quicksand', sans-serif;
+    // color: gray;
+  }
+
+  .circle-style {
+      color: lightslategray;
+      cursor: pointer;
+  }
+
+  .circle-style:hover {
+      text-shadow: 0 0 10px rgb(144, 144, 144);
+  }
+
+  .card-img-top {
+    width: 297px;
+    height: 176px;
+  }

@@ -1,0 +1,18 @@
+<div class="card m-3">
+  <img class="card-img-top" [src]="currentBeautyService.image" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">{{currentBeautyService.name}}</h5>
+    <p class="card-text"><i class="far fa-money-bill-alt"></i> {{currentBeautyService.price}}grn</p>
+    <!-- <p *ngIf="role==='Main manager'" class="card-text"><small class="text-muted"><i class="fas fa-calendar-alt"></i>{{currentBeautyService.date}}</small></p> -->
+    <p class="card-text"><small class="text-muted"><i class="fas fa-calendar-alt"></i>{{currentBeautyService.serviceType}}</small></p>
+    <p *ngIf="role==='Main manager'" class="card-text"><small class="text-muted"><i class="fas fa-user"></i>{{currentBeautyService.employeeName}}</small></p>
+    <div *ngIf="role=='Main manager'" class="row ml-1 justify-content-around">
+      <p class="m-1" (click)="delete(currentBeautyService.id)"><i class="far fa-trash-alt my-style-i"></i></p>
+      <p class="m-1" (click)="edit(currentBeautyService.id)"><i class="fas fa-edit my-style-i"></i ></p>
+    </div>
+  </div>
+  <div *ngIf="role=='Customer'" class="row ml-2 mr-2 justify-content-end">
+    <!-- <button class="m-1 btn btn-outline-grey" (click)="order(currentBeautyService.id)">Order <i class="fas fa-plus my-style-i"></i></button> -->
+    <p class="m-1" (click)="info(currentBeautyService.id)"><i class="fas fa-info-circle my-style-i"></i ></p>
+  </div>
+</div>

@@ -1,0 +1,5 @@
+<div class="row justify-content-between pl-4 pr-4">
+  <p>{{currentOrder.productName}}</p>
+  <p>{{currentProduct.price}}</p>
+  <i class="far fa-trash-alt" (click)="delete(currentOrder.id,currentProduct.id)"></i>
+</div>

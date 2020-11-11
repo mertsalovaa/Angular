@@ -1,0 +1,58 @@
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light header" id="ftco-navbar">
+  <div class="container d-flex align-items-center">
+    <a class="navbar-brand" [routerLink]="['/']">Beauty place</a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="oi oi-menu text-uppercase d-flex align-items-center"><i class="fas fa-bars pr-2 bars"></i>Menu</span>
+    </button>
+
+    <div class="collapse navbar-collapse text-uppercase" id="ftco-nav">
+      <ul class="navbar-nav ml-auto mt-2">
+
+        <li class="nav-item m-1" [routerLinkActive]="['active']">
+          <a [routerLink]="['/']" class="nav-link">Home</a>
+        </li>
+        <li *ngIf="role=='Employee'" class="nav-item m-1" [routerLinkActive]="['active']">
+          <a [routerLink]="['employee-panel']" class="nav-link">Services</a>
+        </li>
+        <li *ngIf="role=='Customer'" class="nav-item m-1" [routerLinkActive]="['active']">
+          <a class="nav-link" [routerLink]="['customer-panel/beauty-services']">Services</a>
+        </li>
+        <li class="nav-item m-1" [routerLinkActive]="['active']">
+          <a [routerLink]="['gallery']" class="nav-link">Gallery</a>
+        </li>
+        <li class="nav-item m-1" [routerLinkActive]="['active']">
+          <a [routerLink]="['contact']" class="nav-link">Contact</a>
+        </li>        
+
+        <li *ngIf="role==='Main manager'" class="nav-item dropdown m-1" [routerLinkActive]="['active']">
+          <a [routerLink]="['/manager-panel']" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Manager panel
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a [routerLink]="['/manager-panel/beauty-services']" class="nav-link dropdown-item pl-2">Beauty services</a>
+            <a [routerLink]="['/manager-panel/beauty-products']" class="nav-link dropdown-item pl-2">Beauty products</a>
+            <a [routerLink]="['/manager-panel/management-users']" class="nav-link dropdown-item pl-2">Management
+              users</a>
+          </div>
+        </li>
+        <li *ngIf="isLoggedIn===false" class="nav-item m-1" [routerLinkActive]="['active']">
+          <a [routerLink]="['/login']" class="nav-link">
+            Log In <i class="fas fa-user-plus m-1"></i></a>
+        </li>
+        <li *ngIf="isLoggedIn===true" (click)="logout()" class="nav-item m-1" [routerLinkActive]="['active']">
+          <a class="nav-link" [routerLink]="['/']">
+            Log Out <i class="fas fa-sign-out-alt m-1"></i></a>
+        </li>
+        <li *ngIf="role==='Customer'" class="nav-item m-1" [routerLinkActive]="['active']">
+          <cart></cart>
+        </li>
+        <li class="nav-item d-flex ml-3" *ngIf="isLoggedIn===true" [routerLinkActive]="['active']">
+            <app-user-info></app-user-info>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

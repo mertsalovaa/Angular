@@ -1,0 +1,29 @@
+<div class="row" data-toggle="modal" data-target="#exampleModal1">
+  <img [src]="user.image" alt="image" class="avatar mr-1">
+  <p class="title" style="color: white; margin-top: 15px;"> {{user.fullName}}</p>
+</div>
+s
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Your info : </h5>
+      </div>
+      <div class="modal-body row justify-content-center ml-3">
+        <div class="col justify-content-center align-items-center">
+          <p class="font-weight-bold">{{user.fullName}}</p>
+          <p><i class="far fa-envelope"></i><small> Email : </small>{{user.email}}</p>
+          <p><i class="fas fa-phone"></i><small> Phone : </small>{{user.phone}}</p>
+          <p><i class="fas fa-birthday-cake"></i><small> Birthday : </small>{{user.birthDate}}</p>
+          <p><i class="fa fa-map-marker-alt"></i><small> Address : </small>{{user.address}}</p>
+        </div>
+        <div class="col w-auto justify-content-center align-items-center">
+          <img [src]="user.image" class="avatar-big" alt="{{user.fullName}}" />
+        </div>
+      </div>
+    </div>
+    <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div> -->
+  </div>
+</div>

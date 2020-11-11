@@ -1,0 +1,8 @@
+HTML/CSS, JS, ASP.NET
+
+1)Зробити use case для всіх ролей 
+2)Зробити trello табличку (ОБОВ'ЯЗКО для команд)
+3)Вибір на чому буде реалізована курсова
+  1)ASP.NET MVC || MVC Core
+  2)Asp.Net Core API + Angular || React
+  3)JS+JQuery + ASP.NET API

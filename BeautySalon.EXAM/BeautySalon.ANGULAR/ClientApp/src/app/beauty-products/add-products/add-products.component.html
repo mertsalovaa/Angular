@@ -1,0 +1,15 @@
+<form class="col-lg-5 text-center" style="margin: 0 auto;" #myForm="ngForm" (ngSubmit)="add()">
+
+  <input [(ngModel)]="newProduct.name" type="text" name="name" class="form-control" placeholder="Name">
+  <input [(ngModel)]="newProduct.price" type="number" name="price" class="form-control" placeholder="Price">
+  <input [(ngModel)]="newProduct.description" type="text" name="description" class="form-control" placeholder="Description">
+  <input [(ngModel)]="newProduct.image" type="text" name="image" class="form-control" placeholder="Image URL">
+
+  <select name="productType" class="form-control" [(ngModel)]="newProduct.productType">
+    <option disabled>Product type</option>
+    <option class="input100 label-input100"
+      *ngFor="let item of productTypes;" [ngValue]="item">{{item}}</option>
+  </select>
+
+  <button type="submit" class="btn btn-dark">Save</button>
+</form>

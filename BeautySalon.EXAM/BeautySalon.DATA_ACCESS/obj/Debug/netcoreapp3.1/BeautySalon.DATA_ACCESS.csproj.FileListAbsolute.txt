@@ -1,0 +1,18 @@
+C:\Users\Iryna Mertsalova\Desktop\EXAM\BeautySalon.EXAM\BeautySalon.DATA_ACCESS\bin\Debug\netcoreapp3.1\BeautySalon.DATA_ACCESS.deps.json
+C:\Users\Iryna Mertsalova\Desktop\EXAM\BeautySalon.EXAM\BeautySalon.DATA_ACCESS\bin\Debug\netcoreapp3.1\BeautySalon.DATA_ACCESS.dll
+C:\Users\Iryna Mertsalova\Desktop\EXAM\BeautySalon.EXAM\BeautySalon.DATA_ACCESS\obj\Debug\netcoreapp3.1\BeautySalon.DATA_ACCESS.AssemblyInfoInputs.cache
+C:\Users\Iryna Mertsalova\Desktop\EXAM\BeautySalon.EXAM\BeautySalon.DATA_ACCESS\obj\Debug\netcoreapp3.1\BeautySalon.DATA_ACCESS.AssemblyInfo.cs
+C:\Users\Iryna Mertsalova\Desktop\EXAM\BeautySalon.EXAM\BeautySalon.DATA_ACCESS\obj\Debug\netcoreapp3.1\BeautySalon.DATA_ACCESS.csprojAssemblyReference.cache
+C:\Users\Iryna Mertsalova\Desktop\EXAM\BeautySalon.EXAM\BeautySalon.DATA_ACCESS\bin\Debug\netcoreapp3.1\BeautySalon.DATA_ACCESS.pdb
+C:\Users\Iryna Mertsalova\Desktop\EXAM\BeautySalon.EXAM\BeautySalon.DATA_ACCESS\obj\Debug\netcoreapp3.1\BeautySalon.DATA_ACCESS.csproj.CoreCompileInputs.cache
+C:\Users\Iryna Mertsalova\Desktop\EXAM\BeautySalon.EXAM\BeautySalon.DATA_ACCESS\obj\Debug\netcoreapp3.1\BeautySalon.DATA_ACCESS.dll
+C:\Users\Iryna Mertsalova\Desktop\EXAM\BeautySalon.EXAM\BeautySalon.DATA_ACCESS\obj\Debug\netcoreapp3.1\BeautySalon.DATA_ACCESS.pdb
+C:\Users\Mertsalova.Iryna\Downloads\Angular-BeautySalon.exam\Angular-BeautySalon.exam\BeautySalon.EXAM\BeautySalon.DATA_ACCESS\bin\Debug\netcoreapp3.1\BeautySalon.DATA_ACCESS.deps.json
+C:\Users\Mertsalova.Iryna\Downloads\Angular-BeautySalon.exam\Angular-BeautySalon.exam\BeautySalon.EXAM\BeautySalon.DATA_ACCESS\bin\Debug\netcoreapp3.1\BeautySalon.DATA_ACCESS.dll
+C:\Users\Mertsalova.Iryna\Downloads\Angular-BeautySalon.exam\Angular-BeautySalon.exam\BeautySalon.EXAM\BeautySalon.DATA_ACCESS\bin\Debug\netcoreapp3.1\BeautySalon.DATA_ACCESS.pdb
+C:\Users\Mertsalova.Iryna\Downloads\Angular-BeautySalon.exam\Angular-BeautySalon.exam\BeautySalon.EXAM\BeautySalon.DATA_ACCESS\obj\Debug\netcoreapp3.1\BeautySalon.DATA_ACCESS.csprojAssemblyReference.cache
+C:\Users\Mertsalova.Iryna\Downloads\Angular-BeautySalon.exam\Angular-BeautySalon.exam\BeautySalon.EXAM\BeautySalon.DATA_ACCESS\obj\Debug\netcoreapp3.1\BeautySalon.DATA_ACCESS.AssemblyInfoInputs.cache
+C:\Users\Mertsalova.Iryna\Downloads\Angular-BeautySalon.exam\Angular-BeautySalon.exam\BeautySalon.EXAM\BeautySalon.DATA_ACCESS\obj\Debug\netcoreapp3.1\BeautySalon.DATA_ACCESS.AssemblyInfo.cs
+C:\Users\Mertsalova.Iryna\Downloads\Angular-BeautySalon.exam\Angular-BeautySalon.exam\BeautySalon.EXAM\BeautySalon.DATA_ACCESS\obj\Debug\netcoreapp3.1\BeautySalon.DATA_ACCESS.csproj.CoreCompileInputs.cache
+C:\Users\Mertsalova.Iryna\Downloads\Angular-BeautySalon.exam\Angular-BeautySalon.exam\BeautySalon.EXAM\BeautySalon.DATA_ACCESS\obj\Debug\netcoreapp3.1\BeautySalon.DATA_ACCESS.dll
+C:\Users\Mertsalova.Iryna\Downloads\Angular-BeautySalon.exam\Angular-BeautySalon.exam\BeautySalon.EXAM\BeautySalon.DATA_ACCESS\obj\Debug\netcoreapp3.1\BeautySalon.DATA_ACCESS.pdb

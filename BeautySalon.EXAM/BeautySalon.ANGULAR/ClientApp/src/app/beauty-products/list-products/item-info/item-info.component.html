@@ -1,0 +1,22 @@
+<div class="p-4 m-2 justify-content-around">
+  <div class="row ml-5 mr-5 pb-1">
+    <div class="col d-flex justify-content-center align-items-center">
+      <img class="my-img" [src]="product.image" />
+    </div>
+    <div class="col">
+      <p><small class="title-text">Name: </small><strong class="text"> {{product.name}}</strong></p>
+      <p><small class="title-text">Price: </small><strong class="text"> {{product.price}} UAH</strong></p>
+      <p><small class="title-text">Description: </small><strong class="text"> {{product.description}}</strong></p>
+      <p><small class="title-text">Product for: </small><strong class="text"> {{product.productType}}</strong></p>
+      <br />
+      <div (mouseover)="rotate=true" (mouseout)="rotate=false">
+        <button class="btn btn-success" (click)="setOrder(product.id)">
+          <i *ngIf="rotate===false" style="margin-right: 7px;" class="fas fa-shopping-cart"></i>
+          <i *ngIf="rotate===true" style="margin-right: 7px;" class="fas fa-shopping-cart fa-spin"></i>
+          Order</button>
+        <!-- <i class="fas fa-shopping-basket"></i>   -->
+      </div>
+    </div>
+  </div>
+  <button *ngIf="role==='Customer'" [routerLink]="['/customer-panel/']" class="btn btn-warning">Go back ..</button>
+</div>
